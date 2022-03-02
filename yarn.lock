@@ -616,12 +616,7 @@ base64-arraybuffer@0.1.5:
   resolved "https://registry.yarnpkg.com/base64-arraybuffer/-/base64-arraybuffer-0.1.5.tgz#73926771923b5a19747ad666aa5cd4bf9c6e9ce8"
   integrity sha1-c5JncZI7Whl0etZmqlzUv5xunOg=
 
-base64-js@^1.0.2:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.3.1.tgz#58ece8cb75dd07e71ed08c736abc5fac4dbf8df1"
-  integrity sha512-mLQ4i2QO1ytvGWFWmcngKO//JXAQueZvwEKtjgQFM4jIK0kU+ytMfplL8j+n5mspOfjHwoAg+9yhb7BwAHm36g==
-
-base64-js@^1.2.3, base64-js@^1.3.1:
+base64-js@^1.0.2, base64-js@^1.3.1, base64-js@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
   integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
@@ -1052,7 +1047,14 @@ colors@^1.1.0:
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
   integrity sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==
 
-commander@^2.18.0:
+commander@2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.9.0.tgz#9c99094176e12240cb22d6c5146098400fe0f7d4"
+  integrity sha1-nJkJQXbhIkDLItbFFGCYQA/g99Q=
+  dependencies:
+    graceful-readlink ">= 1.0.0"
+
+commander@^2.18.0, commander@^2.19.0:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
@@ -3258,13 +3260,12 @@ pinkie@^2.0.0:
   integrity sha1-clVrgM+g1IqXToDnckjoDtT3+HA=
 
 plist@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/plist/-/plist-3.0.1.tgz#a9b931d17c304e8912ef0ba3bdd6182baf2e1f8c"
-  integrity sha512-GpgvHHocGRyQm74b6FWEZZVRroHKE1I0/BTjAmySaohK+cUn+hZpbqXkc3KWgW3gQYkqcQej35FohcT0FRlkRQ==
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/plist/-/plist-3.0.4.tgz#a62df837e3aed2bb3b735899d510c4f186019cbe"
+  integrity sha512-ksrr8y9+nXOxQB2osVNqrgvX/XQPOXaU4BQMKjYq8PvaY1U18mo+fKgBSwzK+luSyinOuPae956lSVcBwxlAMg==
   dependencies:
-    base64-js "^1.2.3"
+    base64-js "^1.5.1"
     xmlbuilder "^9.0.7"
-    xmldom "0.1.x"
 
 popper.js@1.16.1-lts:
   version "1.16.1-lts"
@@ -4417,11 +4418,6 @@ xmlbuilder@^9.0.7:
   version "9.0.7"
   resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-9.0.7.tgz#132ee63d2ec5565c557e20f4c22df9aca686b10d"
   integrity sha1-Ey7mPS7FVlxVfiD0wi35rKaGsQ0=
-
-xmldom@0.1.x:
-  version "0.1.31"
-  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.31.tgz#b76c9a1bd9f0a9737e5a72dc37231cf38375e2ff"
-  integrity sha512-yS2uJflVQs6n+CyjHoaBmVSqIDevTAWrzMmjG1Gc7h1qQ7uVozNhEPJAwZXWyGQ/Gafo3fCwrcaokezLPupVyQ==
 
 xmlhttprequest-ssl@~1.5.4:
   version "1.5.5"
